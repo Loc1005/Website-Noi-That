@@ -41,7 +41,6 @@ move_uploaded_file($hinh_tmp,'images/'.$hinh);
 
 	$query_sp= mysqli_query($conn,$sql_sp);
 
-	
 	header('location: qlsp.php?page_layout=danhsachsp');
 }
 }
